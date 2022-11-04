@@ -13,7 +13,7 @@ body {
 /* UTILS */
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -29,6 +29,17 @@ li {
     flex-basis: 20%;
 }
 
+.row {
+    gap: 20px;
+    padding-bottom: 20px;
+
+}
+
+.col {
+    min-height: 600px;
+    border: 2px dashed black;
+    flex-basis: calc(100% / 3);
+}
 
 /* HEADER */
 header {
@@ -74,5 +85,5 @@ header {
 /* MAIN */
 
 main {
-    margin-top: 80px;
+    margin: 100px 0;
 }
