@@ -41,6 +41,10 @@ li {
     flex-basis: calc(100% / 3);
 }
 
+.card {
+    position: relative;
+}
+
 /* HEADER */
 header {
     height: 70px;
@@ -60,7 +64,7 @@ header {
     align-items: center;
 }
 
-.navbar a {
+.nav-link a {
     text-decoration: none;
     color: white;
     padding-right: 10px;
@@ -74,12 +78,13 @@ header {
     width: 130px;
 }
 
-.nav-icons {
-    text-align: end;
+.nav-icons.flex {
+    justify-content: end;
 }
 
-.nav-icons > i {
-    padding-left: 5px;
+.nav-icons a {
+    padding-left: 10px;
+    color: white;
 }
 
 /* MAIN */
@@ -89,7 +94,7 @@ main {
 }
 
 .card > img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .brand {
@@ -114,4 +119,40 @@ main {
 
 .base-p {
     text-decoration-line: line-through;
+}
+
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 1px 12px;
+    background-color: white;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+
+.tag {
+    position: absolute;
+    bottom: 100px;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.d-perc {
+    left: 0;
+    background-color: red;
+}
+
+.sost, .sost-2 {
+    background-color: green;
+}
+.sost {
+    left: 63px;
+}
+
+.sost-2 {
+    left: 0;
 }
