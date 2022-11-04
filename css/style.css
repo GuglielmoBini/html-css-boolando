@@ -36,8 +36,8 @@ li {
 }
 
 .col {
-    min-height: 600px;
-    border: 2px dashed black;
+    min-height: 725px;
+    /*border: 2px dashed black;*/
     flex-basis: calc(100% / 3);
 }
 
@@ -85,5 +85,33 @@ header {
 /* MAIN */
 
 main {
-    margin: 100px 0;
+    margin: 120px 0;
+}
+
+.card > img {
+    width: 100%;
+}
+
+.brand {
+    font-size: 0.9rem;
+}
+
+.article {
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+
+.price {
+    display: inline-block;
+    font-size: 0.9rem;
+}
+
+.discount {
+    color: red;
+    font-weight: bold;
+}
+
+.base-p {
+    text-decoration-line: line-through;
 }
